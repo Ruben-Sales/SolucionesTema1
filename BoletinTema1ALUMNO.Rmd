@@ -92,7 +92,9 @@ b.  Usa las funciones **dim, head, tail, str** para una primera visión de los c
 c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ```{r}
+??MASS::mammals # El data frame contiene el tamaño medio del cerebro y cuerpo de 62 especies de mamíferos.
 
+??robustbase::Animals2 # El data frame contiene el tamaño medio del cerebro y cuerpo de 62 especies de mamíferos y otras tres 3 más.
 
 
 
