@@ -147,17 +147,10 @@ print(only_in_Animals2)# En el conjunto Animals2 hay 7 animales que no están en
 e.  Determina las diferencia entre los animales que no aparecen en ambos conjuntos.
 
 ```{r}
+setdiff(only_in_mammals, only_in_Animals2)
+setdiff(only_in_Animals2, only_in_mammals)
 
-
-
-
-
-
-
-
-
-
-
+# La diferencia entre ambos conjuntos en cualquier orden es el conjunto sobre el que se aplica la operación, pues son disjuntos.
 
 ```
 
