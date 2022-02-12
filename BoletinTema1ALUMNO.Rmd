@@ -200,7 +200,9 @@ str(Chile)
 # 2) Número de variables: 8
 # 3) Tipos de variables: factor, vector de enteros, factor, vector de enteros, factor, vector de enteros, vector de reales, factor.
 
+colSums(is.na(cabbages)) # No hay ningún valor perdido.
 
+colSums(is.na(Chile)) # Solo hay valores perdidos en: age (1), education (11), income (98), statusquo (17), vote (168).
 
 
 
