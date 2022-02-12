@@ -240,7 +240,7 @@ hist(VitC_c52)
 #Diagrama de dispersión global.
 plot(whiteside$Temp, whiteside$Gas)
 #Diagrama de dispersión etiquetando según un factor.
-plot(whiteside$Temp, whiteside$Gas, pch=c(6,16)[whiteside\$Insul])
+plot(whiteside$Temp, whiteside$Gas, pch=c(6,16)[whiteside$Insul])
 legend(x="topright",legend=c("Insul = Before","Insul = After"), pch=c(6,16))
 # Planteamos 2 modelos lineales, uno para los datos de cada factor
 Model1 <- lm(Gas ~ Temp, data = whiteside, subset = which(Insul == "Before"))
@@ -269,21 +269,7 @@ a.  Utiliza un procedimiento análogo para determinar si se aprecia una relació
 b.  Repite el apartado anterior, pero obteniendo un modelo para cada una de las dos variedades de calabaza, **Cult**. Ver[Parámetros básicos plot](https://www.statmethods.net/advgraphs/parameters.html).
 
 ```{r}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+plot(cabbages$VitC ~ cabbages$HeadWt) # No parece que se pueda trazar alguna recta que encaje tan bien con los datos como en el apartado anterior.
 
 ```
 
