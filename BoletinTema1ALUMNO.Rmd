@@ -96,6 +96,21 @@ c.  Muestra los nombres de las filas y las columnas (**rownames**, **colnames**)
 
 ??robustbase::Animals2 # El data frame contiene el tamaño medio del cerebro y cuerpo de 62 especies de mamíferos y otras tres 3 más.
 
+dim(MASS::mammals) # El data frame contiene 62 registros de dos variables
+
+head(MASS::mammals)
+
+tail(MASS::mammals)
+
+str(MASS::mammals)
+
+dim(robustbase::Animals2) # El data frame contiene 65 registros de dos variables
+
+head(robustbase::Animals2)
+
+tail(robustbase::Animals2)
+
+str(robustbase::Animals2)
 
 
 
