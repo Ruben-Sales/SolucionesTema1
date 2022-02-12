@@ -123,11 +123,11 @@ colnames(Animals2)
 d.  Usa la función **intersect** y almacena en la variable *commonAnimals* los aminales que aparezcan en ambos conjuntos
 
 ```{r}
+mammals_animals<-row.names(mammals)
+Animals2_animals<-row.names(Animals2)
 
-
-
-
-
+commonAnimals<-intersect(mammals_animals, Animals2_animals)
+print(commonAnimals)
 
 ```
 
