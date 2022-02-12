@@ -134,11 +134,13 @@ print(commonAnimals)
 e.  Usa **setdiff** para averiguar qué animales no están en ambos conjuntos. ¿Cuántos son ?. ¿Qué tipo de animales son?
 
 ```{r}
+only_in_mammals<-setdiff(mammals_animals, commonAnimals)
+print(only_in_mammals)# En el conjunto mammals hay 4 animales que no están en el otro conjunto.
 
+only_in_Animals2<-setdiff(Animals2_animals, commonAnimals)
+print(only_in_Animals2)# En el conjunto Animals2 hay 7 animales que no están en el otro conjunto.
 
-
-
-
+# Aunque algunos animales poco comunes no se encuentran en la intersección de ambos conjuntos, resulta destacable una diferencia ortográfica respecto de la palabra "artic"/"arctic", escita de manera diferente en ambos conjuntos de datos.
 
 ```
 
