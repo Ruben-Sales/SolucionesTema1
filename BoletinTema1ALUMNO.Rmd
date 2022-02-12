@@ -190,7 +190,15 @@ length(libReturn$results) # La longitud es de 621 elementos, que es el número d
     d.  Utiliza la función **summary**, sobre **cabbages** y **Chile** y observa como, además de otros estadísticos, también devuelve el número de valores perdidos de cada variable.
 
 ```{r}
+str(cabbages)
+# 1) Número de registros: 60
+# 2) Número de variables: 4
+# 3) Tipos de variables: factor, factor, vector de reales, vector de enteros.
 
+str(Chile)
+# 1) Número de registros: 2700
+# 2) Número de variables: 8
+# 3) Tipos de variables: factor, vector de enteros, factor, vector de enteros, factor, vector de enteros, vector de reales, factor.
 
 
 
